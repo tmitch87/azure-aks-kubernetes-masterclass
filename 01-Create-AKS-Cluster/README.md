@@ -99,6 +99,9 @@ az aks install-cli
 # Configure Cluster Creds (kube config)
 az aks get-credentials --resource-group aks-rg1 --name aksdemo1
 
+az aks get-credentials --resource-group kubernetes-learn --name tm-akslrn
+
+
 # List AKS Nodes
 kubectl get nodes 
 kubectl get nodes -o wide

@@ -59,7 +59,7 @@ kubectl expose deployment <Deployment-Name>  --type=LoadBalancer --port=80 --tar
 kubectl expose deployment my-first-deployment --type=LoadBalancer --port=80 --target-port=80 --name=my-first-deployment-service
 
 # Get Service Info
-kubectl get svc
+    kubectl get svc
 
 ```
 - **Access the Application using Public IP**
